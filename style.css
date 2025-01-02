@@ -1,0 +1,120 @@
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: 'Roboto Condensed',sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    background-image: url("https://images.unsplash.com/photo-1625862956155-4c11e318ba2f?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGhlYXJ0JTIwY29mZmVlfGVufDB8fDB8fHww");
+    background-size: cover;
+    background-position: center;
+background-repeat:no-repeat ;
+}
+header{
+    width: 100%;
+    padding: 30px 8%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.6)
+}
+header *{
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    display: flex;
+    
+}
+.logo{
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+
+}
+
+nav a{
+    position: relative;
+    font-size: 1rem;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 5s ease;
+}
+nav a:hover {
+    background-color: #794028;
+
+}
+.links a{
+    font-size: 24px;
+    margin-left: 20px;
+    transition: 5s ease;
+}
+.links a:hover{
+    transform: scale(1,2);
+}
+section{
+    color: #fff;
+    min-height:calc(100vh - 135px);
+    display: flex;
+    align-items: center;
+    padding:0 8%;
+    padding-top: 15%;
+}
+.content{
+    width: 500px;
+    position: relative;
+    
+}
+.content h1{
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+}
+.content p{
+    padding: 20px 0;
+    font-size: 19px;
+    letter-spacing: 0.5px;
+
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 25px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: capitalize;
+    border: 3px solid #fff;
+    transition:5s ease ;
+    margin-top:2 px;
+    border-radius: 8px;
+}
+.btn:hover{
+    transform: scale(1,1);
+    letter-spacing: 1px;
+}
+.social{
+    margin-top: 50px ;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.social a{
+    display: inline-block;
+    padding: 10px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 24px;
+    transition: 5s ease;
+}
+.social a:hover{
+    transform: scale(1.1);
+}
